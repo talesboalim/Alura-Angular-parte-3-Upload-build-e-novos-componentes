@@ -1,0 +1,40 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/alurapic/dist
+/alurapic/tmp
+/alurapic/out-tsc
+
+# dependencies
+/alurapic/node_modules
+/api/node_modules
+
+# IDEs and editors
+/alurapic/.idea
+/alurapic/.project
+/alurapic/.classpath
+/alurapic/.c9/
+/alurapic/*.launch
+/alurapic/.settings/
+/alurapic/*.sublime-workspace
+
+# IDE - VSCode
+/alurapic/.vscode/*
+!/alurapic/.vscode/settings.json
+!/alurapic/.vscode/tasks.json
+!/alurapic/.vscode/launch.json
+!/alurapic/.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
